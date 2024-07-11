@@ -1,0 +1,85 @@
+.banner {
+  background-color: #273647;
+  margin: 0;
+  padding: 0;
+  .wrapper {
+    width: 1350px;
+    margin: auto;
+    .bannerText {
+      display: block;
+      padding: 40px;
+      h3 {
+        margin: 0;
+        padding: 21px 0px;
+        font-size: 40px;
+        font-weight: 700;
+        color: #fff;
+      }
+      h4 {
+        font-size: 15px;
+        color: #fff;
+        font-weight: 400;
+        line-height: 20px;
+      }
+
+      .Disk {
+        margin-top: 30px;
+
+        a {
+          text-decoration: none;
+          font-size: 20px;
+          font-weight: 300;
+          color: #f4f4f4;
+          &:hover {
+            color: aqua;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-device-width: 991px) and (max-device-width: 1350px) {
+  .banner {
+    width: 100%;
+    .wrapper {
+      width: 100%;
+      .bannerText {
+        padding: 16px 96px 17px 44px;
+        h3 {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-device-width: 767px) and (max-device-width: 991px) {
+  .banner {
+    width: 100%;
+    .wrapper {
+      width: 100%;
+      .bannerText {
+        padding: 16px 96px 17px 44px;
+        h3 {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-device-width: 360px) and (max-device-width: 767px) {
+  .banner {
+    width: 100%;
+    .wrapper {
+      width: 100%;
+      .bannerText {
+        padding: 16px 96px 17px 44px;
+        h3 {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,98 @@
+export interface IArticle {
+  id: 2;
+  title: "Our Project";
+  url: "/our project";
+}
+
+export interface IBanner {
+  id: 1;
+  title: "Message from the President";
+  pragraph: "As a leading name in the market, it has always been our constant endeavor to create outstanding residential and commercial developments in the United Arab Emirates. We always aspire to turn the dream of a luxury home into reality with our intricately designed living spaces. We thrive on excellence and many of our well-acclaimed projects like Le Solarium, The Prism, Le Presidium, Mon Reve, and Majestique Residence speak for themselves. A signature living starts under the name of Credo. Your search for the best real estate property developer in Dubai ends at Credo Investments FZE.";
+  button: "READ MORE ";
+}
+
+export interface Ifutured {
+  id: 1;
+  title: "FEATURED PROJECTS";
+  dence: "MAJESTIQUE";
+  dence1: "RESIDENCE";
+  pragraph: "Lies in the prestigious Madinat Al Mataar, Dubai South Community. Spacious, fully furnished 1BR, 2BR and Studio Apartments complement your distinguished lifestyle.";
+  get: "GET MORE INFO";
+  img: "https://www.credouae.com/wp-content/uploads/2022/07/best-real-estate-property-developer-in-dubai-majestique-residence-br.jpg";
+  img2: "https://www.credouae.com/wp-content/uploads/2022/07/best-real-estate-property-developer-in-dubai-mrmain.jpg";
+  roof: "ROOF TOP";
+  pool: "Swimming Pool";
+  gym: "GYMANSIUM";
+  health: "Healthy Lifestyle";
+  play: "PLAY AREA";
+  child: "For Childeren";
+  mon: "MON REVE";
+  pragraph1: "Mon Rêve, a boutique residential building in Downtown Dubai, in close proximity of The Dubai Mall and the iconic Burj Khalifa. The building has superior quality finishes, high ceilings, floor-to-ceiling windows, a choice of 1, 2, 3 Bedrooms and Duplex Mall View apartments.";
+  Icon: "KNOW MORE";
+  img3: "https://www.credouae.com/wp-content/uploads/2022/07/best-property-in-dubai-mon-reve-mr2.jpg";
+  LE: "LE PRESIDIUM";
+  pragraph2: "Le Presidium project consists oftwo residential tower of G+11 floors each, continently located in Dubai Silicon Oasis. It has a mix of one- and two-bedroom apartments. Amenities include a swimming pool, gymnasium and recreation room.";
+  img4: "https://www.credouae.com/wp-content/uploads/2022/07/le-presidium-swimming-pool.gif";
+  door: "INDOOR";
+  img5: "https://www.credouae.com/wp-content/uploads/2022/07/Le-Presidium-credo.jpg";
+  LE2: "LE SOLARIUM";
+  pragraph3: "Le Solarium is a commercial building with a perfect blend of modern facilities in Dubai Silicon Oasis. This building consists of 15 floors in total. This commercial tower offers multiple choices when it comes to food and retail outlets, along with other amenities like a gymnasium & swimming pool.";
+  img6: "https://www.credouae.com/wp-content/uploads/2022/07/LE-SOLARIUM.gif";
+  img7: "https://www.credouae.com/wp-content/uploads/2022/07/The-Prism.jpg";
+  prism: "THE PRISM";
+  pragraph4: "The Prism is a 35-floor commercial tower located on Happiness Street in Business Bay. It is an architectural marvel with amenities such as health club, swimming pool, restaurants and retail outlets. The Prism is in close proximity to Dubai International Finance Centre (DIFC), The Burj Khalifa & Dubai Mall.";
+}
+
+export interface IFooter {
+  _id: "668aee7f002f73afd39c6ddb";
+  id: "1";
+  connent: "CONNECT WITH US";
+  credo: "CREDO INVESTMENTS FZE";
+  pragraph: "First Floor, Le Solarium BuildingDubai Silicon Oasis, Dubai, U.A.E";
+  number: "T: +971 4 335 5092";
+  email: "E: info@credouae.com";
+  latest: "LATEST NEWS";
+  aprail: "03 Aprial";
+  pragraph1: "Unveiling the Phenomenon: Why Dubai South Properties are Skyrocketing";
+  january: "25 Jan";
+  may: "03 May";
+  sigh: "SIGNUP FOR NEWSLETTER";
+  praghraph3: "Signup to get news about Credo Investments FZE. We don’t spam!";
+}
+
+export interface IAbout {
+  img: "https://www.credouae.com/wp-content/uploads/2019/07/m1-2-3.jpg";
+  credo: "Credo Investments FZE";
+  pragraph: "As one of the Dubai’s leading luxury and premium developers, Credo Investments FZE develops innovative and creative living homes for the luxury lifestyle.";
+  pragraph1: "We are providing outstanding commercial and residential developments in United Arab Emirates since 2005.";
+  pragraph2: "With global interest spanning from transport & IT to trading & real estate, Credo’s professional team has forged a reputation for consistently delivering prestigious real estate developments in Dubai, UAE.";
+  pragraph3: "Renowned for its business acumen, credo has formed alliances with industry leaders in designing, architecture and construction to develop landmark projects such as The Prism at Business Bay, Le Solarium & Le Presidium at Dubai Silicon Oasis and Mon Reve at Downtown Dubai, in the heart of commercial & business sector, the Burj Khalifa District.";
+  About: "About Our Projects";
+  Majestique: "Majestique Residence";
+  mon: "Mon Reve";
+  Le: "Le Solarium";
+  lp: "Le Presidium";
+  prism: "The Prism";
+  img1: "https://www.credouae.com/wp-content/uploads/2022/07/brooke-cagle-uHVRvDr7pg-unsplash.jpg";
+  img2: "https://www.credouae.com/wp-content/uploads/2022/07/credo-customer-care.jpg";
+  img3: "https://www.credouae.com/wp-content/uploads/2022/07/lara-far-PKTSHQMm-5c-unsplash.jpg";
+  team: "Professional Sales Team";
+  teampragraph: "Our Sales team are highly experienced and professional.";
+  care: "Exclusive Customer Care";
+  carepragraph: "Get premium assistance in buying a luxurious property by credo.";
+  wide: "Wide Options Available";
+  widepragraph: "We have multiple property options available to meet your need.";
+  imgtop: "https://www.credouae.com/wp-content/uploads/2022/07/diverse-businesspeople-having-meeting-1400x623.jpg";
+  client: "WHAT OUR CLIENT SAY ABOUT US";
+  imgmen: "https://www.credouae.com/wp-content/uploads/2022/07/portrait-successful-man-having-stubble-posing-with-broad-smile-keeping-arms-folded-280x280.jpg";
+  menpragraph: "Investing in property with Credo is one of the best choices I’ve made. I am extremely thankful to the Credo staff for providing me with the right option.";
+  james: "James white / United State of America";
+}
+
+export interface ISearch {
+  _id: "668daf03fe416e44803ff931";
+  id: 1;
+  title: "Mumbai";
+  img: "data:image/jpeg;base64,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";
+  text: "Mumbai is the capital city of Maharashtra state in southwestern India. It is the country’s financial and commercial center and its principal port on the Arabian Sea.";
+}

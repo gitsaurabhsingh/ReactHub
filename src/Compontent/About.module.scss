@@ -1,0 +1,261 @@
+.About {
+  background-image: url(../img/mendd.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  h1 {
+    font-size: 45px;
+    font-weight: 800;
+    color: #fff;
+  }
+}
+.wrapper {
+  width: 1150px;
+  margin: auto;
+
+  .AboutFlex {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-top: 10%;
+    .AboutImage {
+      display: block;
+      width: 42%;
+      padding: 48px 0px;
+      img {
+        width: 100%;
+      }
+    }
+    .Aboutpragraph {
+      display: block;
+      width: 39%;
+      h2 {
+        font-size: 30px;
+        font-weight: 600;
+        color: #000;
+      }
+      p {
+        font-size: 14px;
+        font-weight: 400;
+        color: #555;
+        margin-top: 26px;
+      }
+    }
+  }
+}
+
+.project {
+  background-color: #d9d8de;
+  display: block;
+  padding: 30px 0px;
+  .wrapper {
+    width: 1150px;
+    margin: auto;
+    .projectText {
+      display: flex;
+      justify-content: space-between;
+      padding: 40px 0px;
+
+      .projectNav {
+        display: block;
+        width: 30%;
+
+        h2 {
+          font-size: 22px;
+          font-weight: 600;
+          color: goldenrod;
+        }
+        .projectForm {
+          display: block;
+
+          ul {
+            list-style: none;
+            li {
+              margin-top: 20px;
+              a {
+                text-decoration: none;
+                font-size: 17px;
+                font-weight: 400;
+                color: #555;
+              }
+            }
+          }
+        }
+      }
+
+      .projectMen {
+        display: flex;
+        justify-content: space-between;
+        width: 66%;
+        gap: 20px;
+
+        .projectImage {
+          display: block;
+          img {
+            width: 100%;
+          }
+          h2 {
+            font-size: 17px;
+            font-weight: 600;
+            color: goldenrod;
+          }
+          p {
+            font-size: 12px;
+            margin-top: 25px;
+          }
+        }
+        .projectCare {
+          display: block;
+          img {
+            width: 100%;
+          }
+          h2 {
+            font-size: 17px;
+            font-weight: 600;
+            color: goldenrod;
+          }
+          p {
+            font-size: 12px;
+            margin-top: 25px;
+          }
+        }
+        .projectWide {
+          display: block;
+          img {
+            width: 100%;
+          }
+          h2 {
+            font-size: 17px;
+            font-weight: 600;
+            color: goldenrod;
+          }
+          p {
+            font-size: 12px;
+            margin-top: 25px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.Client {
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -30px;
+  .wrapper {
+    width: 1150px;
+    margin: auto;
+    position: relative;
+    top: -20px;
+    .Clientdisk {
+      display: block;
+
+      .Clienttext {
+        background-color: #446084;
+        display: block;
+        text-align: center;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        padding: 10px;
+        h2 {
+          font-size: 24px;
+          font-weight: 600;
+          color: #fff;
+          padding: 14px;
+        }
+      }
+      .CLientImage {
+        background-color: #aa8a4b;
+        margin-top: -22px;
+        padding: 30px 0px;
+
+        .wrapper {
+          // width: 800px;
+          // margin: auto;
+
+          .Clientflex2 {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            padding: 30px;
+            align-items: center;
+
+            .ClientForm {
+              width: 20%;
+
+              img {
+                width: 100%;
+                border-radius: 50%;
+              }
+            }
+
+            .ClientArticle {
+              display: block;
+              width: 66%;
+
+              p {
+                font-size: 15px;
+                font-weight: 400;
+                color: #fff;
+              }
+              h2 {
+                font-size: 15px;
+                color: #fff;
+                font-weight: 400;
+                margin-top: 40px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .ClientEquaction {
+      background-color: #446084;
+      padding: 30px;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+    }
+  }
+}
+
+@media screen and (min-device-width: 360px) and (max-device-width: 767px) {
+  .wrapper {
+    width: 100%;
+    .AboutFlex {
+      display: block;
+      .AboutImage {
+        display: block;
+        width: 100%;
+        padding: 10px;
+      }
+      .Aboutpragraph {
+        width: 100%;
+        padding: 20px;
+        h2 {
+          font-size: 25px;
+        }
+        p {
+          font-size: 12px;
+          width: 360px;
+        }
+      }
+    }
+  }
+
+  .project {
+    display: none;
+  }
+  .Client {
+    display: none;
+    .wrapper {
+      width: 100%;
+    }
+  }
+}
