@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ReactHub/static/css/main.3c593cd2.css",
+    "main.js": "/ReactHub/static/js/main.421c29ba.js",
+    "static/media/dubai.jpg": "/ReactHub/static/media/dubai.9b98cc31f6a5b846f34a.jpg",
+    "static/media/background.jpg": "/ReactHub/static/media/background.f632e6c867fc362c9ba9.jpg",
+    "static/media/header-inquire.jpg": "/ReactHub/static/media/header-inquire.513d0b2e81e998ec9d00.jpg",
+    "static/media/mendd.jpg": "/ReactHub/static/media/mendd.513d0b2e81e998ec9d00.jpg",
+    "index.html": "/ReactHub/index.html",
+    "main.3c593cd2.css.map": "/ReactHub/static/css/main.3c593cd2.css.map",
+    "main.421c29ba.js.map": "/ReactHub/static/js/main.421c29ba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c593cd2.css",
+    "static/js/main.421c29ba.js"
+  ]
+}
