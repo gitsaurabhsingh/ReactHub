@@ -9,22 +9,30 @@ import {
 } from "./Article";
 
 export const fetchhead = createAsyncThunk("user", async () => {
-  const data = await fetch("http://localhost:5000/Header");
+  const data = await fetch(
+    "https://gitgauravsingh.github.io/nodeApi/Api/header.json"
+  );
   return data.json();
 });
 
 export const fetchbanner = createAsyncThunk("fetchbanner", async () => {
-  const banner = await fetch("http://localhost:5000/banner");
+  const banner = await fetch(
+    "https://gitgauravsingh.github.io/nodeApi/Api/banner.json"
+  );
   return banner.json();
 });
 
 export const fetchfutured = createAsyncThunk("fetchfutured", async () => {
-  const futured = await fetch("http://localhost:5000/Futured");
+  const futured = await fetch(
+    "https://gitgauravsingh.github.io/nodeApi/Api/featers.json"
+  );
   return futured.json();
 });
 
 export const fetchfooter = createAsyncThunk("fetchfooter", async () => {
-  const footer = await fetch("http://localhost:5000/Footer");
+  const footer = await fetch(
+    "https://gitgauravsingh.github.io/nodeApi/Api/footer.json"
+  );
   return footer.json();
 });
 

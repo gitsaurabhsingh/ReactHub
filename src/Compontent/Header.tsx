@@ -54,6 +54,7 @@ const Header = () => {
             <div className={Style.logo}>
               <img src={logo} alt="" />
             </div>
+
             <div className={Style.headernav}>
               <ul>
                 {details.data &&
