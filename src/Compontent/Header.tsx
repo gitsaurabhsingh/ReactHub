@@ -52,6 +52,7 @@ const Header = () => {
     const sidebar = document.getElementById("sidebar");
     if (sidebar) {
       sidebar.style.width = "0px";
+      document.body.style.overflow = "";
     }
   };
 
