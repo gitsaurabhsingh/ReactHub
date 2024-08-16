@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ReactHub/static/css/main.ab7f5d8c.css",
-    "main.js": "/ReactHub/static/js/main.1f9d9dd2.js",
+    "main.css": "/ReactHub/static/css/main.cee9efb3.css",
+    "main.js": "/ReactHub/static/js/main.44e76ad0.js",
     "static/media/dubai.jpg": "/ReactHub/static/media/dubai.9b98cc31f6a5b846f34a.jpg",
     "static/media/background.jpg": "/ReactHub/static/media/background.f632e6c867fc362c9ba9.jpg",
     "static/media/header-inquire.jpg": "/ReactHub/static/media/header-inquire.513d0b2e81e998ec9d00.jpg",
     "static/media/mendd.jpg": "/ReactHub/static/media/mendd.513d0b2e81e998ec9d00.jpg",
     "index.html": "/ReactHub/index.html",
-    "main.ab7f5d8c.css.map": "/ReactHub/static/css/main.ab7f5d8c.css.map",
-    "main.1f9d9dd2.js.map": "/ReactHub/static/js/main.1f9d9dd2.js.map"
+    "main.cee9efb3.css.map": "/ReactHub/static/css/main.cee9efb3.css.map",
+    "main.44e76ad0.js.map": "/ReactHub/static/js/main.44e76ad0.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab7f5d8c.css",
-    "static/js/main.1f9d9dd2.js"
+    "static/css/main.cee9efb3.css",
+    "static/js/main.44e76ad0.js"
   ]
 }
