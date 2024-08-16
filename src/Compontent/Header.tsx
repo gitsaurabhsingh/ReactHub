@@ -40,6 +40,21 @@ const Header = () => {
     setShow(false);
   };
 
+  const handleSide = () => {
+    const sidebar = document.getElementById("sidebar");
+    if (sidebar) {
+      sidebar.style.width = "300px";
+      document.body.style.overflow = "hidden";
+    }
+  };
+
+  const handlenav = () => {
+    const sidebar = document.getElementById("sidebar");
+    if (sidebar) {
+      sidebar.style.width = "0px";
+    }
+  };
+
   return (
     <>
       {/* <StickyBox style={{ zIndex: "999" }}> */}
@@ -54,7 +69,41 @@ const Header = () => {
             <div className={Style.logo}>
               <img src={logo} alt="" />
             </div>
-
+            <div className={Style.headscroll} onClick={handleSide}>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div className={Style.Headslidbar} id="sidebar">
+              <div className={Style.HeadBox}>
+                <input type="text" placeholder="Search" />
+              </div>
+              <div className={Style.headNavbar}>
+                <ul>
+                  {details.Search &&
+                    details.Search.map((item) => {
+                      return (
+                        <li>
+                          <a href="#/">{item.title}</a>
+                        </li>
+                      );
+                    })}
+                </ul>
+              </div>
+              <div className={Style.HeadIconbar}>
+                <a href="#/" className={Style.whatsapp}>
+                  <i className="fa-brands fa-whatsapp"></i>
+                </a>
+              </div>
+              <div className={Style.HeadIconbar1}>
+                <a href="#/">
+                  <i className="fa-regular fa-message"></i> INQUIRE NOW
+                </a>
+              </div>
+              <div className={Style.Headnav} onClick={handlenav}>
+                <h2>X</h2>
+              </div>
+            </div>
             <div className={Style.headernav}>
               <ul>
                 {details.data &&

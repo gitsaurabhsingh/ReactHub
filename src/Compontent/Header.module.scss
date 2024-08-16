@@ -31,6 +31,82 @@
         }
       }
 
+      .headscroll {
+        display: none;
+
+        span {
+          margin-top: 3px;
+          width: 20px;
+          display: block;
+          height: 3px;
+          background-color: #fff;
+        }
+      }
+
+      .Headslidbar {
+        background-color: #000;
+        width: 0px;
+        position: fixed;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 99;
+        overflow: hidden;
+        transition: 0.6s;
+
+        .HeadBox {
+          display: block;
+          padding: 20px;
+          input {
+            padding: 10px;
+            border-radius: 16px;
+            border: none;
+            outline: none;
+          }
+        }
+        .headNavbar {
+          ul {
+            list-style: none;
+            margin-top: 20px;
+            li {
+              margin-top: 30px;
+              border-bottom: solid 1px #fff;
+              padding: 20px;
+
+              a {
+                text-decoration: none;
+                color: #fff;
+              }
+            }
+          }
+        }
+        .HeadIconbar {
+          display: block;
+          padding: 20px;
+          border-bottom: solid 1px #fff;
+          a {
+            color: #fff;
+            font-size: 35px;
+          }
+        }
+        .HeadIconbar1 {
+          display: block;
+          padding: 20px;
+          border-bottom: solid 1px #fff;
+          a {
+            color: #fff;
+            font-size: 16px;
+          }
+        }
+
+        .Headnav {
+          position: absolute;
+          top: 7%;
+          color: #fff;
+
+          right: 40px;
+        }
+      }
       .headernav {
         display: block;
 
@@ -155,24 +231,44 @@
     width: 100%;
     .wrapper {
       width: 100%;
+      .headermain {
+        position: relative;
+        z-index: 11;
+        .logo {
+          display: block;
+          margin: auto;
+        }
+        .headscroll {
+          display: flex;
+          margin-left: 20px;
+          flex-direction: column;
+          position: absolute;
+          top: 60px;
+          left: 15px;
 
-      .logo {
-        display: block;
-        margin: auto;
+          span {
+            margin-top: 3px;
+            width: 20px;
+            display: block;
+            height: 3px;
+            background-color: #fff;
+          }
+        }
+
+        .headernav {
+          display: none !important;
+        }
+        .Icon {
+          display: none !important;
+        }
       }
-      .headernav {
-        display: none !important;
-      }
-      .Icon {
-        display: none !important;
-      }
-    }
-    .headment {
-      h1 {
-        font-size: 27px !important;
-      }
-      h2 {
-        font-size: 16px !important;
+      .headment {
+        h1 {
+          font-size: 27px !important;
+        }
+        h2 {
+          font-size: 16px !important;
+        }
       }
     }
   }
