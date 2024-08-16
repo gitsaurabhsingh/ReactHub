@@ -17,21 +17,21 @@ export const fetchhead = createAsyncThunk("fetchhead", async () => {
 
 export const fetchbanner = createAsyncThunk("fetchbanner", async () => {
   const banner = await fetch(
-    "https://gitgauravsingh.github.io/nodeApi/Api/banner.json"
+    "https://gitsaurabhsingh.github.io/node-data/Data/banner.json"
   );
   return banner.json();
 });
 
 export const fetchfutured = createAsyncThunk("fetchfutured", async () => {
   const futured = await fetch(
-    "https://gitgauravsingh.github.io/nodeApi/Api/featers.json"
+    "https://gitsaurabhsingh.github.io/node-data/Data/futured.json"
   );
   return futured.json();
 });
 
 export const fetchfooter = createAsyncThunk("fetchfooter", async () => {
   const footer = await fetch(
-    "hhttps://gitgauravsingh.github.io/nodeApi/Api/footer.json"
+    "https://gitsaurabhsingh.github.io/node-data/Data/Footer.json"
   );
   return footer.json();
 });
