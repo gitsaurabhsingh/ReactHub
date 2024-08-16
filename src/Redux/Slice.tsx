@@ -8,9 +8,9 @@ import {
   ISearch,
 } from "./Article";
 
-export const fetchhead = createAsyncThunk("user", async () => {
+export const fetchhead = createAsyncThunk("fetchhead", async () => {
   const data = await fetch(
-    "https://gitgauravsingh.github.io/nodeApi/Api/header.json"
+    "https://gitsaurabhsingh.github.io/node-data/Data/header.json"
   );
   return data.json();
 });
@@ -31,7 +31,7 @@ export const fetchfutured = createAsyncThunk("fetchfutured", async () => {
 
 export const fetchfooter = createAsyncThunk("fetchfooter", async () => {
   const footer = await fetch(
-    "https://gitgauravsingh.github.io/nodeApi/Api/footer.json"
+    "hhttps://gitgauravsingh.github.io/nodeApi/Api/footer.json"
   );
   return footer.json();
 });
