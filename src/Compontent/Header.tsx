@@ -101,6 +101,16 @@ const Header = () => {
                   <i className="fa-regular fa-message"></i> INQUIRE NOW
                 </a>
               </div>
+              <div className={Style.HeadIconbar1}>
+                <a href="#/">
+                  <i className="fa-brands fa-twitter"></i> Twitter
+                </a>
+              </div>
+              <div className={Style.HeadIconbar1}>
+                <a href="#/">
+                  <i className="fa-brands fa-facebook"></i> Facebook
+                </a>
+              </div>
               <div className={Style.Headnav} onClick={handlenav}>
                 <h2>X</h2>
               </div>

@@ -75,9 +75,13 @@
     .wrapper {
       width: 100%;
       .bannerText {
-        padding: 16px 96px 17px 44px;
+        padding: 0px 20px;
         h3 {
           font-size: 30px;
+        }
+        .Disk {
+          margin: 0;
+          padding: 20px 0px;
         }
       }
     }
